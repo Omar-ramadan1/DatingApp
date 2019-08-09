@@ -46,7 +46,8 @@ import { appRoutes } from './routes';
    providers: [
       AuthService,
       AlertifyService,
-      AuthGuard
+      AuthGuard,
+      
    ],
    bootstrap: [
       AppComponent
