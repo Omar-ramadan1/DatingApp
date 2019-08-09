@@ -47,6 +47,8 @@ namespace DatingApp.API.Controllers {
   
             //if (!ModelState.IsValid)
             //return BadRequest(ModelState);
+            
+           // throw new Exception("Computer says no!");
 
             var userFromRepo = await _repo.Login (userForLoginDto.Username.ToLower(), userForLoginDto.Password);
 
@@ -77,7 +79,8 @@ namespace DatingApp.API.Controllers {
                 token = tokenHandler.WriteToken(token)
                     });
 
-        }
+
     
     }
+}
 }

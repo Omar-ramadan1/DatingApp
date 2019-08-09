@@ -12,3 +12,4 @@ const routesConfig: Routes = [
 //export const MyRouteRoutes = RouterModule.forChild(routes);
 export const MyRouteRoutes = RouterModule.forChild(routesConfig);
 
+
